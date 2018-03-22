@@ -1,4 +1,6 @@
-# EXPERIMENT 35: glider
+# AVRORA BALANCE
+
+As used in Glider study. 
 
 ## AVRORA 4
 
