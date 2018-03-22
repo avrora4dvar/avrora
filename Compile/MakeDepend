@@ -1,0 +1,25 @@
+ad_avrora.o: mod_ocean.o mod_parallel.o mod_forces.o mod_output.o mod_eoscoef.o
+tl_avrora.o: mod_ocean.o mod_parallel.o mod_forces.o mod_output.o mod_eoscoef.o
+ad_identity.o: mod_netcdf.o mod_roms.o
+tl_identity.o: mod_netcdf.o mod_roms.o
+ad_balance_3D.o: mod_output.o
+tl_balance_3D.o: mod_output.o
+cov_ens.o: mod_netcdf.o mod_constants.o mod_roms.o mod_netcdf.o mod_interp.o
+ini_fourier.o: mod_netcdf.o mod_constants.o
+create_ini.o: mod_netcdf.o mod_interp.o mod_roms.o
+create_pre.o: mod_netcdf.o mod_interp.o mod_BHM.o 
+create_background.o: mod_netcdf.o mod_interp.o mod_roms.o mod_time.o mod_filter.o
+create_wind_eof.o: mod_netcdf.o mod_BHM.o
+create_windL.o: mod_netcdf.o mod_BHM.o
+create_windS.o: mod_netcdf.o mod_BHM.o
+RBCG.o: mod_netcdf.o
+tl_sample.o: mod_netcdf.o mod_interp.o mod_sample.o
+ad_sample.o: mod_netcdf.o mod_interp.o mod_sample.o mod_roms.o
+create_mean.o: mod_netcdf.o mod_roms.o
+cov_scale.o: mod_netcdf.o mod_BHM.o
+ini_scale.o: mod_netcdf.o mod_BHM.o
+test.o: mod_BHM.o 
+tl_interp.o: mod_netcdf.o mod_interp.o  mod_roms.o
+ad_interp.o: mod_netcdf.o mod_interp.o  mod_roms.o
+PCG.o: mod_netcdf.o mod_BHM.o
+MSO.o: mod_netcdf.o mod_BHM.o
