@@ -16,7 +16,7 @@ As used in Glider study.
 3. Move the binary oceanM to [Bin][Avrora/Bin] as oceanMCR
 4. Redirect the paths in the [ROMS input][Script/ocean.in] to the locations of the input files on the local system
 
-** Scripts
+## Scripts
 1. Add scripts in [Script][Script] to [Bin][Avrora/Bin] and move to a local location for the Bin
 2. Assign executive priviliges to Bin using `chmod`
 3. Set bin directory (binDir) and experiment directory (expDir) in `batch_bal.sh`
